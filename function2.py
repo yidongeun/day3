@@ -1,5 +1,4 @@
 # def sum(n1, n2):
-#     print("sum 함수 : ",n1, n2)
 #     return n1+n2
 
 #     num1 = 10:
