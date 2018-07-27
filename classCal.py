@@ -16,8 +16,13 @@ class Cal():
         self.value *= input_value
 
     def div(self, input_value):
+        try:
          self.value /= input_value
-           
+        except ZeroDivisionError:
+            print("0으로 나눌수 없습니다")
+        finally:
+            print("나누기 실행완료")            
+          
 
 class SafeCal(Cal):
     def __init__(self, value):
